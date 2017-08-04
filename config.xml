@@ -46,7 +46,7 @@
     <preference name="fullscreen"                 value="false" />           <!-- all: hides the status bar at the top of the screen -->
 	<preference name="android-minSdkVersion" value="14" /> <!-- android: MIN SDK version supported on the target device. MAX version is blank by default. -->
 	<preference name="android-installLocation" value="auto" /> <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
-   <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+   <!--<gap:plugin name="cordova-plugin-whitelist" source="npm" />-->
 
   <access origin="http://www.jalinanduta.com/*" />
   <allow-navigation href="http://www.jalinanduta.com/*"/>
